@@ -1,6 +1,6 @@
 import json
 
-from chat.gemini_client import ask_gemini
+from providers.ollama import ask_ollama
 from memory.profile import ProfileStore
 
 
@@ -21,6 +21,10 @@ Determine whether the user's message contains a
 long-term personal fact that should be remembered.
 
 Return ONLY valid JSON.
+
+Do not explain.
+Do not think aloud.
+Do not wrap JSON in markdown.
 
 Examples:
 
@@ -47,8 +51,9 @@ User Message:
 
         try:
 
-            response = await ask_gemini(
-                prompt
+            response = await ask_ollama(
+                prompt,
+                model="qwen3:8b"
             )
 
             print(
@@ -89,9 +94,7 @@ User Message:
 
                 print(
                     f"\nMEMORY SAVED: "
-                    f"{data['key']} "
-                    f"= "
-                    f"{data['value']}"
+                    f"{data['key']} = {data['value']}"
                 )
 
         except Exception as e:

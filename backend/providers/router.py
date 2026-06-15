@@ -5,7 +5,9 @@ async def generate_response(
     prompt: str
 ):
 
+    print("\nROUTER: FORCED qwen3:8b\n")
+
     return await ask_ollama(
-        prompt=prompt,
+        prompt,
         model="qwen3:8b"
     )
