@@ -1,4 +1,4 @@
-from chat.gemini_client import ask_gemini
+from providers.router import generate_response
 
 from memory.manager import MemoryManager
 from memory.extractor import MemoryExtractor
@@ -56,7 +56,7 @@ User:
 Suika:
 """
 
-        reply = await ask_gemini(
+        reply = await generate_response(
             prompt
         )
 

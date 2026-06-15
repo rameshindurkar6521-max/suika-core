@@ -1,17 +1,11 @@
-from providers.gemini import ask_gemini
+from providers.ollama import ask_ollama
 
 
-async def ask_model(
-    prompt: str,
-    provider: str = "gemini"
+async def generate_response(
+    prompt: str
 ):
 
-    if provider == "gemini":
-
-        return await ask_gemini(
-            prompt
-        )
-
-    raise Exception(
-        f"Unknown provider: {provider}"
+    return await ask_ollama(
+        prompt=prompt,
+        model="qwen3:8b"
     )
