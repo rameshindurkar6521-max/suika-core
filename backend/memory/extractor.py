@@ -15,36 +15,17 @@ class MemoryExtractor:
     ):
 
         prompt = f"""
-You are a memory extraction engine.
-
-Determine whether the user's message contains a
-long-term personal fact that should be remembered.
-
 Return ONLY valid JSON.
 
-Do not explain.
-Do not think aloud.
-Do not wrap JSON in markdown.
+Schema:
 
-Examples:
+{{"remember":true,"key":"fact","value":"value"}}
 
-{{
-    "remember": true,
-    "key": "project",
-    "value": "FRIDAY V2"
-}}
+or
 
-{{
-    "remember": true,
-    "key": "career_goal",
-    "value": "AI Engineer"
-}}
+{{"remember":false}}
 
-{{
-    "remember": false
-}}
-
-User Message:
+Message:
 
 {message}
 """
@@ -53,7 +34,8 @@ User Message:
 
             response = await ask_ollama(
                 prompt,
-                model="qwen3:8b"
+                model="qwen3:8b",
+                num_predict=16
             )
 
             print(
@@ -63,14 +45,8 @@ User Message:
 
             cleaned = (
                 response
-                .replace(
-                    "```json",
-                    ""
-                )
-                .replace(
-                    "```",
-                    ""
-                )
+                .replace("```json", "")
+                .replace("```", "")
                 .strip()
             )
 

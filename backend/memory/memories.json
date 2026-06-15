@@ -367,6 +367,106 @@
     {
       "role": "user",
       "content": "My favorite movie is Interstellar"
+    },
+    {
+      "role": "assistant",
+      "content": "Ah, *Interstellar*! \ud83c\udf0c That\u2019s a mind-bending masterpiece\u2014like trying to code FRIDAY V2 while racing a Bugatti Chiron through a black hole! \ud83d\ude80 Your wolf instincts and Iron Man grit will crush NEET and build something *galactic*. What\u2019s one lesson from the movie that\u2019s fueling your mission today? \ud83d\udc3a\u2728"
+    },
+    {
+      "role": "user",
+      "content": "What is my favorite movie?"
+    },
+    {
+      "role": "assistant",
+      "content": "Your favorite movie is *Interstellar*! \ud83c\udf0c That\u2019s a cosmic choice\u2014like coding FRIDAY V2 while racing a Bugatti Chiron through a black hole! \ud83d\ude80 What\u2019s one lesson from the movie that\u2019s fueling your mission today? \ud83d\udc3a\u2728"
+    },
+    {
+      "role": "user",
+      "content": "What is my favorite movie?"
+    },
+    {
+      "role": "assistant",
+      "content": "Your favorite movie is *Interstellar*! \ud83c\udf0c That\u2019s a cosmic choice\u2014like coding FRIDAY V2 while racing a Bugatti Chiron through a black hole! \ud83d\ude80 What\u2019s one lesson from the movie that\u2019s fueling your mission today? \ud83d\udc3a\u2728"
+    },
+    {
+      "role": "user",
+      "content": "What is my favorite movie?"
+    },
+    {
+      "role": "assistant",
+      "content": "Your favorite movie is *Interstellar*! \ud83c\udf0c That\u2019s a cosmic choice\u2014like coding FRIDAY V2 while racing a Bugatti Chiron through a black hole! \ud83d\ude80 What\u2019s one lesson from the movie that\u2019s fueling your mission today? \ud83d\udc3a\u2728"
+    },
+    {
+      "role": "user",
+      "content": "Hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! \ud83c\udf1f Your favorite movie is *Interstellar*\u2014a cosmic choice that vibes with your mission to build FRIDAY V2! \ud83d\ude80 What\u2019s one lesson from the movie sparking your NEET prep or coding today? \ud83d\udc3a\u2728 I\u2019m here to help you crush goals, whether it\u2019s debugging code or acing exams! \ud83d\udca5"
+    },
+    {
+      "role": "user",
+      "content": "Hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! \ud83c\udf1f Your favorite movie is *Interstellar*\u2014a cosmic choice that vibes with your mission to build FRIDAY V2! \ud83d\ude80 What\u2019s one lesson from the movie sparking your NEET prep or coding today? \ud83d\udc3a\u2728 I\u2019m here to help you crush goals, whether it\u2019s debugging code or acing exams! \ud83d\udca5"
+    },
+    {
+      "role": "user",
+      "content": "Hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! \ud83c\udf1f Your favorite movie is *Interstellar*\u2014a cosmic choice that vibes with your mission to build FRIDAY V2! \ud83d\ude80 What\u2019s one lesson from the movie sparking your NEET prep or coding today? \ud83d\udc3a\u2728 I\u2019m here to help you crush goals, whether it"
+    },
+    {
+      "role": "user",
+      "content": "string"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! \ud83c\udf1f Your favorite movie is *Interstellar*\u2014a cosmic choice that vibes with your mission to build FRIDAY V2! \ud83d\ude80 What\u2019s one lesson from the movie sparking your NEET prep or coding today? \ud83d\udc3a\u2728 I\u2019m here to help you crush goals, whether it"
+    },
+    {
+      "role": "user",
+      "content": "hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! \ud83c\udf1f Your favorite movie is *Interstellar*\u2014a cosmic choice that vibes with your mission to build FRIDAY V2! \ud83d\ude80 What\u2019s one lesson from the movie sparking your NEET prep or coding today? \ud83d\udc3a\u2728 I\u2019m here to help you crush goals, whether it"
+    },
+    {
+      "role": "user",
+      "content": "hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello, Siddhu! \ud83c\udf19\u2728 How's your day going? I'm Suika, your AI companion. Let me know how I can help you with your NEET exam or your FRIDAY V2 project! \ud83d\udc3a\u2694\ufe0f"
+    },
+    {
+      "role": "user",
+      "content": "hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello, Siddhu! \ud83c\udf19\u2728 What's on your mind today? I'm here to help you learn, build, and grow! Let's make progress together. What do you want to work on first?"
+    },
+    {
+      "role": "user",
+      "content": "hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello, Siddhu! \ud83c\udf19\u2728 What's on your mind today? I'm here to help you learn, build, and grow! Let's make progress together. What do you want to work on first?"
+    },
+    {
+      "role": "user",
+      "content": "hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello, Siddhu! \ud83c\udf19\u2728 What's on your mind today? I'm here to help you learn, build, and grow! Let's make progress together. What do you want to work on first?"
     }
   ]
 }

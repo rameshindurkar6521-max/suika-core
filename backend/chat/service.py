@@ -22,11 +22,15 @@ class ChatService:
             message
         )
 
-        await extractor.process(
-            message
-        )
+        if len(message.strip()) > 20:
+
+            await extractor.process(
+                message
+            )
 
         history = memory.recent_conversation()
+
+        history = history[-3:]
 
         user_profile = memory.get_profile()
 
@@ -55,6 +59,10 @@ User:
 
 Suika:
 """
+
+        print(
+            f"\nPROMPT SIZE: {len(prompt)} chars\n"
+        )
 
         reply = await generate_response(
             prompt

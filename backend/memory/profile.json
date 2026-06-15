@@ -10,5 +10,6 @@
   "goal": "build FRIDAY V2",
   "exam": "NEET",
   "favorite_superhero": "Iron Man",
-  "favorite_movie": "Interstellar"
+  "favorite_movie": "Interstellar",
+  "fact": "string"
 }
