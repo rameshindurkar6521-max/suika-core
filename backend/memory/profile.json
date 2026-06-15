@@ -11,5 +11,6 @@
   "exam": "NEET",
   "favorite_superhero": "Iron Man",
   "favorite_movie": "Interstellar",
-  "fact": "string"
+  "fact": "string",
+  "favorite_language": "Python"
 }

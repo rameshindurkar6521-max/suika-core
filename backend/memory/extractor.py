@@ -19,7 +19,7 @@ Return ONLY valid JSON.
 
 Schema:
 
-{{"remember":true,"key":"fact","value":"value"}}
+{{"remember":true,"key":"fact_name","value":"fact_value"}}
 
 or
 
@@ -59,19 +59,43 @@ Message:
                 data
             )
 
-            if data.get(
+            if not data.get(
                 "remember"
             ):
+                return
 
-                profile.save_fact(
-                    data["key"],
-                    data["value"]
+            key = data.get(
+                "key",
+                ""
+            ).strip()
+
+            value = str(
+                data.get(
+                    "value",
+                    ""
                 )
+            ).strip()
 
+            if (
+                not key
+                or not value
+                or key.lower() == "fact"
+                or value.lower() == "string"
+            ):
                 print(
-                    f"\nMEMORY SAVED: "
-                    f"{data['key']} = {data['value']}"
+                    "\nMEMORY REJECTED: INVALID DATA\n"
                 )
+                return
+
+            profile.save_fact(
+                key,
+                value
+            )
+
+            print(
+                f"\nMEMORY SAVED: "
+                f"{key} = {value}"
+            )
 
         except Exception as e:
 

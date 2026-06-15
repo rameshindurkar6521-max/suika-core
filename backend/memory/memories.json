@@ -467,6 +467,14 @@
     {
       "role": "assistant",
       "content": "Hello, Siddhu! \ud83c\udf19\u2728 What's on your mind today? I'm here to help you learn, build, and grow! Let's make progress together. What do you want to work on first?"
+    },
+    {
+      "role": "user",
+      "content": "My favorite programming language is Python"
+    },
+    {
+      "role": "assistant",
+      "content": "That's awesome! Python is such a versatile language. What are you working on in Python, Siddhu? I'd love to help you with your projects or learning! \ud83d\udc0d\u2728"
     }
   ]
 }
