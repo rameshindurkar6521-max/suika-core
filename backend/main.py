@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-
 from api.v1.chat import router as chat_router
 
 app = FastAPI(
@@ -7,16 +6,12 @@ app = FastAPI(
     version="0.1.0"
 )
 
-app.include_router(
-    chat_router,
-    prefix="/api/v1"
-)
-
+app.include_router(chat_router)
 
 @app.get("/")
 async def root():
-
     return {
         "name": "Suika",
-        "status": "online"
+        "status": "online",
+        "version": "0.1.0"
     }
