@@ -1,0 +1,10 @@
+{
+  "name": "@suika/api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "echo 'API runs as part of apps/web (Next.js API routes). See apps/web/src/app/api for all endpoints.' && exit 0",
+    "start": "echo 'API runs as part of apps/web.' && exit 0"
+  }
+}
