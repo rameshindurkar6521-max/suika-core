@@ -1,3 +1,0 @@
-generate_reply()history = memory.recent()profile_text = profile.get_context()generate_reply()
-history = memory.recent()
-profile_text = profile.get_context()
